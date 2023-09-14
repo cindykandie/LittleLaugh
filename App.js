@@ -1,20 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import JokeOfTheDay from './screens/JokeOfTheDay'; 
+import Feed from './screens/Feed'; 
+import { StatusBar, View } from 'react-native';
+import BottomNav from './components/BottomNav';
+import jokesData from './utils/jokes.json';
+import Post from './screens/Post';
+import Category from './screens/Category';
 
-export default function App() {
+const Stack = createStackNavigator();
+
+function Root() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Stack.Navigator initialRouteName="Category">
+      <Stack.Screen name="JokeOfTheDay" component={JokeOfTheDay} />
+      <Stack.Screen name="Feed">
+          {(props) => <Feed {...props} jokes={jokesData} />}
+        </Stack.Screen>
+        <Stack.Screen name="Category" component={Category} />
+        <Stack.Screen name="Post" component={Post} />
+    </Stack.Navigator>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function App() {
+  return (
+    <NavigationContainer>
+      <StatusBar style="light" />
+      <View style={{ flex: 1 }}>
+        <Root /> 
+        <BottomNav />
+      </View>
+    </NavigationContainer>
+  );
+}
