@@ -1,7 +1,161 @@
 [
-    { "id": 1, "name": "Funny" },
-    { "id": 2, "name": "Puns" },
-    { "id": 3, "name": "Dad Jokes" },
-    { "id": 4, "name": "Knock-Knock" }
+  {
+    "id": 2,
+    "name": "Puns",
+    "jokes": [
+      "I used to be a baker, but I couldn't make enough dough.",
+      "The baker couldn't make enough bread, so he got a new knead assistant.",
+      "I'm reading a book on anti-gravity. It's impossible to put down.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "I'm friends with all electricians because we have good current connections.",
+      "The math book decided to write its own memoirs. It's a tell-all autobiography.",
+      "When the bicycle fell over, it just couldn't stand up for itself.",
+      "The scarecrow got promoted because he was outstanding in his field.",
+      "I'm a fungi, but I'm not a mushroom. I'm a fun guy!"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dad Jokes",
+    "jokes": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "What do you call someone with no body and no nose? Nobody knows!",
+      "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+      "Parallel lines have so much in common. It's a shame they'll never meet.",
+      "Why don't skeletons fight each other? They don't have the guts.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      "Did you hear about the kidnapping at the playground? They woke up.",
+      "I'm reading a book on anti-gravity. It's impossible to put down."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Knock-Knock",
+    "jokes": [
+      "Knock, knock. Who's there? Boo. Boo who? Don't cry; it's just a joke!",
+      "Knock, knock. Who's there? Lettuce. Lettuce who? Lettuce in; it's cold out here!",
+      "Knock, knock. Who's there? Cow says. Cow says who? No, silly, Cow says mooo!",
+      "Knock, knock. Who's there? Atch. Atch who? Bless you!",
+      "Knock, knock. Who's there? Alpaca. Alpaca who? Alpaca the suitcase; you load up the car!",
+      "Knock, knock. Who's there? Hatch. Hatch who? Bless you! Are you sick?",
+      "Knock, knock. Who's there? Ben. Ben who? Ben waiting for you all day!",
+      "Knock, knock. Who's there? Honeydew. Honeydew who? Honeydew you know how much I love you?",
+      "Knock, knock. Who's there? Harry. Harry who? Harry up and answer the door!",
+      "Knock, knock. Who's there? Lettuce. Lettuce who? Lettuce in; it's cold out here!"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Animal Jokes",
+    "jokes": [
+      "Why did the squirrel bring a suitcase to the tree? Because it wanted to pack its acorns!",
+      "What do you call a fish with no eyes? Fsh!",
+      "How do you catch a squirrel? Climb a tree and act like a nut!",
+      "What do you call a bear with no teeth? A gummy bear!",
+      "Why don't seagulls fly over the bay? Because then they'd be bagels!",
+      "What's a frog's favorite candy? Lollihops!",
+      "What do you call a dinosaur with an extensive vocabulary? A thesaurus!",
+      "Why did the cat sit next to the computer? It wanted to keep an eye on the mouse!",
+      "What do you get when you cross a snowman and a dog? Frostbite!",
+      "Why did the cow go to space? It wanted to see the moooon!"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Science Jokes",
+    "jokes": [
+      "Why do biologists look forward to casual Fridays? They're allowed to wear genes to work!",
+      "What did one ion say to the other ion? I got my ion you!",
+      "Why did the physicist go to the beach? Because it had the best potential for fun!",
+      "Why did the biology book get an award? Because it had the best cell-fies!",
+      "Why do chemists like nitrates so much? Because they're cheaper than day rates!",
+      "What did one tectonic plate say to the other? I've got a crush on you!",
+      "Why was the math book sad? Because it had too many problems!",
+      "Why do computer scientists confuse Christmas and Halloween? Because Oct 31 == Dec 25!",
+      "Why do engineers get stressed? Because they have too many problems to solve!",
+      "What did the biologist wear to impress the biologist of their dreams? Designer genes!"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Food Jokes",
+    "jokes": [
+      "I used to be a baker, but I couldn't make enough dough.",
+      "The baker couldn't make enough bread, so he got a new knead assistant.",
+      "I'm on a seafood diet. I see food, and I eat it!",
+      "Why was the math book sad? Because it had too many problems!",
+      "What do you call cheese that isn't yours? Nacho cheese!",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "I'm reading a book on anti-gravity. It's impossible to put down.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I'm friends with all electricians because we have good current connections.",
+      "Why did the bicycle fall over? Because it was two-tired!"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Travel Jokes",
+    "jokes": [
+      "I used to be a baker, but I couldn't make enough dough.",
+      "The baker couldn't make enough bread, so he got a new knead assistant.",
+      "I'm reading a book on anti-gravity. It's impossible to put down.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "I'm friends with all electricians because we have good current connections.",
+      "The math book decided to write its own memoirs. It's a tell-all autobiography.",
+      "When the bicycle fell over, it just couldn't stand up for itself.",
+      "The scarecrow got promoted because he was outstanding in his field.",
+      "I'm a fungi, but I'm not a mushroom. I'm a fun guy!"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Movie Jokes",
+    "jokes": [
+      "I used to be a baker, but I couldn't make enough dough.",
+      "The baker couldn't make enough bread, so he got a new knead assistant.",
+      "I'm reading a book on anti-gravity. It's impossible to put down.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "I'm friends with all electricians because we have good current connections.",
+      "The math book decided to write its own memoirs. It's a tell-all autobiography.",
+      "When the bicycle fell over, it just couldn't stand up for itself.",
+      "The scarecrow got promoted because he was outstanding in his field.",
+      "I'm a fungi, but I'm not a mushroom. I'm a fun guy!"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tech Jokes",
+    "jokes": [
+      "I used to be a baker, but I couldn't make enough dough.",
+      "The baker couldn't make enough bread, so he got a new knead assistant.",
+      "I'm reading a book on anti-gravity. It's impossible to put down.",
+      "I used to play piano by ear, but now I use my hands.",
+      "I couldn't figure out how to put my seatbelt on. Then it 'clicked.'",
+      "I'm friends with all electricians because we have good current connections.",
+      "The math book decided to write its own memoirs. It's a tell-all autobiography.",
+      "When the bicycle fell over, it just couldn't stand up for itself.",
+      "The scarecrow got promoted because he was outstanding in his field.",
+      "I'm a fungi, but I'm not a mushroom. I'm a fun guy!"
+    ]
+  },
+  { "id": 11, 
+  "name": "Funny", 
+  "jokes":[
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "What do you get when you cross a snowman and a vampire? Frostbite!",
+    "How does a penguin build its house? Igloos it together!",
+    "Why was the math book sad? Because it had too many problems!",
+    "I'm on a seafood diet. I see food, and I eat it!",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+    "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "I used to play piano by ear, but now I use my hands.",
+    "I'm reading a book on anti-gravity. It's impossible to put down."
   ]
-  
+}
+]

@@ -28,4 +28,3 @@ const Category = ({ navigation }) => {
 };
 
 export default Category;
-
