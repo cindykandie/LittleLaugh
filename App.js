@@ -8,18 +8,21 @@ import BottomNav from './components/BottomNav';
 import jokesData from './utils/jokes.json';
 import Post from './screens/Post';
 import Category from './screens/Category';
+import Test from './components/Test';
+import Profile from './screens/Profile';
 
 const Stack = createStackNavigator();
 
 function Root() {
   return (
-    <Stack.Navigator initialRouteName="Category">
+    <Stack.Navigator>
       <Stack.Screen name="JokeOfTheDay" component={JokeOfTheDay} />
       <Stack.Screen name="Feed">
-          {(props) => <Feed {...props} jokes={jokesData} />}
-        </Stack.Screen>
-        <Stack.Screen name="Category" component={Category} />
-        <Stack.Screen name="Post" component={Post} />
+        {(props) => <Feed {...props} jokes={jokesData} />}
+      </Stack.Screen>
+      <Stack.Screen name="Category" component={Category} />
+      <Stack.Screen name="Post" component={Post} />
+      <Stack.Screen name="Profile" component={Profile} />
     </Stack.Navigator>
   );
 }
@@ -30,6 +33,7 @@ export default function App() {
       <StatusBar style="light" />
       <View style={{ flex: 1 }}>
         <Root /> 
+        <Test />
         <BottomNav />
       </View>
     </NavigationContainer>

@@ -24,15 +24,11 @@ function BottomNav() {
     {handle: 'Profile', name: 'Profile', icon: 'person' },
   ];
 
-  const screensToShowBottomNav = ['JokeOfTheDay','Feed', 'Post', 'Category', 'Profile'];
 
-  if (!screensToShowBottomNav.includes(activeRouteName)) {
-    return null;
-  }
 
   return (
     <View
-      className={`flex-row justify-between items-center bg-cyan-400 p-2 content-evenly bg-white gap-1 px-2 py-0 pb-3`}
+      className={`flex-row justify-between items-center p-2 content-evenly bg-white gap-1 px-2 py-0 pb-3`}
       style={{
         position: 'absolute',
         bottom: 0,
