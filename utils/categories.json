@@ -157,5 +157,71 @@
     "I used to play piano by ear, but now I use my hands.",
     "I'm reading a book on anti-gravity. It's impossible to put down."
   ]
-}
+},
+  {
+    "id": 12,
+    "name": "School Jokes",
+    "jokes": [
+      "Why did the math book look sad? Because it had too many problems.",
+      "What kind of monster loves math? The Alge-bra!",
+      "Why did the student eat their homework? Because the teacher told them it was a piece of cake!",
+      "What do you call a snowman in the summer? A puddle!",
+      "Why did the student do multiplication problems on the floor? The teacher told them not to use tables.",
+      "Why was the music teacher arrested? Because she got caught with a lot of sharp objects!",
+      "What did one wall say to the other wall? I'll meet you at the corner!",
+      "Why did the student bring a ladder to school? Because they thought it was high school!",
+      "What did the janitor say when he jumped out of the closet? Supplies!",
+      "Why was the computer cold? It left its Windows open!"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sports Jokes",
+    "jokes": [
+      "Why did the scarecrow become a successful baseball player? Because he was outstanding in his field!",
+      "What do you get if you cross a racehorse with a camel? A Kentucky Derby!",
+      "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+      "Why did the bicycle fall over? Because it was two-tired!",
+      "Why did the soccer player bring string to the game? Because he wanted to tie the score!",
+      "Why do basketball players love donuts? Because they can dunk them!",
+      "Why do tennis players make terrible pirates? Because they're afraid of the net!",
+      "Why did the football team go to the bank? To get their quarterback!",
+      "What's the difference between an American football player and time? The football player runs forward while time passes!",
+      "Why was the math book sad? Because it had too many problems!"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Music Jokes",
+    "jokes": [
+      "Why did the music teacher go to jail? Because she got caught with too many sharp objects!",
+      "Why did the musician break up with his metronome? Because it couldn't keep up with the beat of his heart!",
+      "What do you call a musician who has a job? Employed!",
+      "Why did the music stand get kicked out of the band? Because it couldn't keep its composure!",
+      "What did the drum say to the other drum? Your tone is a little flat!",
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "What do you get when you drop a piano down a mine shaft? A flat minor!",
+      "What do you get when you drop a piano on an army base? A flat major!",
+      "Why was the math book sad? Because it had too many problems!",
+      "Why did the computer catch a cold? It had a window open!"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Space Jokes",
+    "jokes": [
+      "Why was the astronaut always hungry? Because he needed space for more food!",
+      "How does an astronaut relax? He takes a rocket bath!",
+      "Why did the sun go to school? To get a little brighter!",
+      "Why did the astronaut break up with his computer? It had too many space issues!",
+      "What do you call an alien spaceship that moves quickly? A flying saucer!",
+      "Why did the astronaut break up with his girlfriend? He needed space!",
+      "Why do astronauts use Linux? Because it's open space!",
+      "What's an astronaut's favorite part of a computer? The space bar!",
+      "Why did the astronaut break up with his girlfriend? He needed space!",
+      "What did Mars say to Saturn? Give me a ring sometime!"
+    ]
+  }
+
+
 ]

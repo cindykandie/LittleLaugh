@@ -14,7 +14,7 @@ const Stack = createStackNavigator();
 
 function Root() {
   return (
-    <Stack.Navigator initialRouteName='JokeOfTheDay'>
+    <Stack.Navigator initialRouteName='JokeOfTheDay' >
       <Stack.Screen name="JokeOfTheDay" component={JokeOfTheDay} />
       <Stack.Screen name="Feed">
         {(props) => <Feed {...props} jokes={jokesData} />}

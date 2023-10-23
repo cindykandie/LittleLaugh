@@ -45,19 +45,19 @@ function BottomNav() {
           style={{
             alignItems: 'center',
             borderTopWidth: activeRouteName === tab.name ? 2 : 0,
-            borderColor: activeRouteName === tab.name ? 'cyan' : 'transparent',
+            borderColor: activeRouteName === tab.name ? 'purple' : 'transparent',
           }}
         >
           <Ionicons
             name={tab.icon}
             size={24}
-            color={activeRouteName === tab.name ? 'cyan' : 'black'}
+            color={activeRouteName === tab.name ? 'purple' : 'black'}
           />
           <Text
             style={{
               fontSize: 12,
               paddingTop: 1,
-              color: activeRouteName === tab.name ? 'cyan' : 'black',
+              color: activeRouteName === tab.name ? 'purple' : 'black',
             }}
           >
             {tab.handle}

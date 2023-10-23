@@ -1,8 +1,9 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { ScrollView } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 const categories = require('../utils/categories.json');
 
-const Feed = ({ route }) => {
+const Feed = ({ route, navigation }) => {
   let categoryId = route.params?.categoryId;
 
   // Generate a random category ID if one is not provided
@@ -29,15 +30,26 @@ const Feed = ({ route }) => {
   }
 
   return (
-    <>
-    <Text className="text-center font-semibold text-xl p-3 underline decoration-red-500">{selectedCategory.name}</Text>
-    <FlatList
-      data={selectedCategory.jokes}
-      renderItem={renderJokeItem}
-      keyExtractor={(item, index) => index.toString()}
-    />
-    </>
-    
+    <View className='pb-[120px]'>
+      <Text className="text-center font-semibold text-xl p-3 underline">{selectedCategory.name}</Text>
+      <ScrollView horizontal={false} >
+        {selectedCategory.jokes.map((joke, index) => (
+          <View
+            key={index}
+            style={{
+              padding: 20,
+              borderBottomWidth: 1,
+              borderColor: '#ccc',
+            }}
+          >
+            <Text className="w-[350] h-auto min-h-[150px] p-auto mx-4 bg-purple-300 rounded-lg p-4 text-2xl ">
+              {joke}
+            </Text>
+          </View>
+        ))}
+      </ScrollView>
+      
+    </View>
   );
 };
 
